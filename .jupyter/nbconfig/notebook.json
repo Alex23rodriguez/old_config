@@ -1,0 +1,63 @@
+{
+  "load_extensions": {
+    "canopy/training/exercise": true,
+    "vim_binding/vim_binding": true
+  },
+  "Cell": {
+    "cm_config": {
+      "lineNumbers": true
+    }
+  },
+  "keys": {
+    "command": {
+      "bind": {
+        "9": "jupyter-notebook:split-cell-at-cursor",
+        "i": "jupyter-notebook:enter-edit-mode",
+        "c": "jupyter-notebook:change-cell-to-code",
+        "y,y": "jupyter-notebook:copy-cell",
+        "m": "jupyter-notebook:change-cell-to-markdown",
+        "shift-o": "jupyter-notebook:insert-cell-above",
+        "o": "jupyter-notebook:insert-cell-below",
+        "shift-q": "jupyter-notebook:interrupt-kernel",
+        "w": "jupyter-notebook:select-previous-cell",
+        "r": "jupyter-notebook:select-next-cell",
+        "d,d": "jupyter-notebook:cut-cell",
+        "v": "jupyter-notebook:paste-cell-below",
+        "cmd-2": "jupyter-notebook:duplicate-notebook",
+        "shift-v": "jupyter-notebook:paste-cell-above",
+        "shift-g": "jupyter-notebook:scroll-notebook-down",
+        "g,g": "jupyter-notebook:scroll-notebook-up",
+        "shift-h": "jupyter-notebook:scroll-cell-top",
+        "enter": "jupyter-notebook:enter-edit-mode",
+        "shift-a": "jupyter-notebook:change-cell-to-raw",
+        "a": "jupyter-notebook:toggle-cell-output-collapsed",
+        "shift-r": "jupyter-notebook:move-cell-down",
+        "shift-w": "jupyter-notebook:move-cell-up",
+        "shift-l": "jupyter-notebook:scroll-cell-center",
+        "shift-m": "jupyter-notebook:merge-cell-with-next-cell"
+      },
+      "unbind": [
+        "enter",
+        "i,i",
+        "c",
+        "y",
+        "a",
+        "o",
+        "shift-o",
+        "m",
+        "b",
+        "s",
+        "r",
+        "j",
+        "shift-k",
+        "shift-j",
+        "d,d",
+        "shift-v",
+        "v",
+        "space",
+        "shift-space",
+        "shift-m"
+      ]
+    }
+  }
+}
